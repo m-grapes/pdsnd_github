@@ -1,11 +1,13 @@
-**06/15/19 Date created**
+### **06/15/19 Date created**
 Include the date you created this project and README file.
 
-**Bikeshare Project Title**
+### **Bikeshare Project Title**
 Replace the Project Title
 
-### Description
+### **Description**
 Describe what your project is about and what it does
+
+The Bikeshare project analyzed data from the cities of Washington, New York City and Chicago. The data was collected from shareable bikes and included info about riders, such as gender, time of rental, and docking stations.
 
 ### Files used
 Include the files used
