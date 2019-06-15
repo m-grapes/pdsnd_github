@@ -1,8 +1,7 @@
-### Date created
+**06/15/19 Date created**
 Include the date you created this project and README file.
-06/15/2019
 
-### Project Title
+**Bikeshare Project Title**
 Replace the Project Title
 
 ### Description
