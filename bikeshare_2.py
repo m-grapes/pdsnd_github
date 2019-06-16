@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
+              'chi town': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'nyc': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -28,7 +29,6 @@ def get_filters():
         else:
             print('That\'s not a valid city!')
             continue
-
 
     # get user input for month (all, january, february, ... , june)
         month=str(input('Which month (all, January, February, .., June) would you like info for? '))
@@ -87,7 +87,6 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     return df
-
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
